@@ -1,0 +1,41 @@
+company_name,industry,funding_stage,amount_usd,date,city,country,num_investors,lead_investor
+DataWave,AI/ML,Seed,1500000,2023-01-15,San Francisco,USA,3,Sequoia Capital
+GreenPulse,CleanTech,Series A,8000000,2023-02-20,Berlin,Germany,5,EQT Ventures
+MediTrack,HealthTech,Seed,750000,2023-03-10,London,UK,2,Seedcamp
+FinLeap,FinTech,Series B,25000000,2023-03-22,New York,USA,7,Andreessen Horowitz
+CodeBrew,Developer Tools,Pre-Seed,300000,2023-04-05,Paris,France,1,Station F
+AgriSense,AgriTech,Seed,2000000,2023-04-18,Amsterdam,Netherlands,4,Rockstart
+ShopFlow,E-Commerce,Series A,12000000,2023-05-01,London,UK,6,Index Ventures
+NeuralText,AI/ML,Series A,10000000,2023-05-14,San Francisco,USA,4,Y Combinator
+EcoCharge,CleanTech,Series B,30000000,2023-06-02,Stockholm,Sweden,8,Northzone
+PayQuick,FinTech,Seed,1800000,2023-06-19,Berlin,Germany,3,Cherry Ventures
+HealthBridge,HealthTech,Series A,6500000,2023-07-08,Boston,USA,5,General Catalyst
+CloudNine,SaaS,Pre-Seed,500000,2023-07-21,Dublin,Ireland,2,NDRC
+LogiMove,Logistics,Seed,3000000,2023-08-03,Rotterdam,Netherlands,3,Volta Ventures
+EduSpark,EdTech,Series A,9000000,2023-08-15,Paris,France,4,Partech
+CyberWall,Cybersecurity,Series B,22000000,2023-09-01,Tel Aviv,Israel,6,Team8
+FoodLoop,FoodTech,Seed,1200000,2023-09-14,Copenhagen,Denmark,3,byFounders
+AutoDrive,Mobility,Series A,15000000,2023-10-02,Munich,Germany,5,BMW i Ventures
+SmartHome,IoT,Pre-Seed,400000,2023-10-20,Lisbon,Portugal,2,Faber Ventures
+BioGen,BioTech,Series B,35000000,2023-11-05,Cambridge,USA,9,Flagship Pioneering
+PropView,PropTech,Seed,2500000,2023-11-18,London,UK,4,Pi Labs
+StyleAI,AI/ML,Seed,1900000,2023-12-01,New York,USA,3,Lerer Hippeau
+GreenGrid,CleanTech,Series A,11000000,2024-01-10,Oslo,Norway,5,Nysnomedia
+MedAI,HealthTech,Series A,7500000,2024-01-22,Zurich,Switzerland,4,Verve Ventures
+TradeSmart,FinTech,Series A,14000000,2024-02-08,Singapore,Singapore,6,Temasek
+DevOpsHub,Developer Tools,Seed,2200000,2024-02-20,Austin,USA,3,Insight Partners
+FarmBot,AgriTech,Series B,18000000,2024-03-05,Nairobi,Kenya,5,TLcom Capital
+RetailSync,E-Commerce,Seed,1600000,2024-03-18,Toronto,Canada,3,MaRS
+VoiceAI,AI/ML,Series B,28000000,2024-04-01,San Francisco,USA,7,Khosla Ventures
+SolarPeak,CleanTech,Seed,3500000,2024-04-14,Barcelona,Spain,4,Kibo Ventures
+InsurTech360,FinTech,Series B,20000000,2024-05-02,Chicago,USA,6,Ribbit Capital
+WellnessApp,HealthTech,Pre-Seed,350000,2024-05-15,Melbourne,Australia,2,Startmate
+DataStream,SaaS,Series A,8500000,2024-06-01,Dublin,Ireland,4,Balderton Capital
+RoboClean,Robotics,Seed,4000000,2024-06-18,Tokyo,Japan,3,SoftBank
+LearnAI,EdTech,Series B,16000000,2024-07-05,New York,USA,5,Reach Capital
+SecureNet,Cybersecurity,Seed,2800000,2024-07-20,Washington DC,USA,4,Paladin Capital
+MealPrep,FoodTech,Series A,7000000,2024-08-02,Berlin,Germany,5,Atlantic Food Labs
+TransitGo,Mobility,Seed,1400000,2024-08-19,Helsinki,Finland,3,Maki.vc
+SmartSensor,IoT,Series A,9500000,2024-09-01,Shenzhen,China,4,HAX
+GenomeX,BioTech,Series A,12000000,2024-09-15,San Diego,USA,5,ARCH Venture Partners
+SpaceHub,PropTech,Series A,6000000,2024-10-01,London,UK,4,A/O PropTech

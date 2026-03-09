@@ -1,0 +1,41 @@
+respondent_id,age_group,gender,country,favorite_coffee,brewing_method,cups_per_day,milk_preference,sweetener,spend_monthly_usd,works_from,morning_person
+1,25-34,Female,USA,Latte,Espresso Machine,3,Oat Milk,None,65,Home,Yes
+2,35-44,Male,UK,Americano,French Press,2,None,None,40,Office,Yes
+3,18-24,Female,France,Cappuccino,Espresso Machine,2,Whole Milk,Sugar,55,Hybrid,No
+4,25-34,Male,Germany,Filter Coffee,Pour Over,4,None,None,30,Office,Yes
+5,45-54,Female,USA,Espresso,Espresso Machine,2,None,None,45,Home,Yes
+6,18-24,Non-binary,Canada,Cold Brew,Cold Brew Maker,1,Oat Milk,Honey,50,Home,No
+7,25-34,Female,Australia,Flat White,Espresso Machine,3,Whole Milk,None,70,Office,Yes
+8,35-44,Male,Italy,Espresso,Moka Pot,4,None,None,20,Office,Yes
+9,25-34,Female,Japan,Matcha Latte,Whisk,2,Soy Milk,None,55,Hybrid,No
+10,18-24,Male,USA,Iced Latte,Espresso Machine,2,Almond Milk,Vanilla Syrup,75,Home,No
+11,45-54,Female,UK,Earl Grey Latte,French Press,1,Whole Milk,Honey,35,Office,Yes
+12,25-34,Male,Netherlands,Filter Coffee,Drip Machine,3,None,None,25,Office,Yes
+13,35-44,Female,France,Café Crème,Espresso Machine,2,Whole Milk,Sugar,45,Hybrid,Yes
+14,18-24,Female,USA,Mocha,Espresso Machine,1,Oat Milk,Chocolate Syrup,80,Home,No
+15,25-34,Male,Germany,Cappuccino,Espresso Machine,2,Whole Milk,None,50,Office,Yes
+16,55+,Male,Brazil,Espresso,Moka Pot,5,None,Sugar,15,Home,Yes
+17,25-34,Female,Sweden,Filter Coffee,Pour Over,4,Oat Milk,None,35,Hybrid,Yes
+18,35-44,Male,USA,Cold Brew,Cold Brew Maker,2,None,None,60,Home,No
+19,18-24,Female,South Korea,Iced Americano,Espresso Machine,3,None,None,65,Office,No
+20,45-54,Male,UK,English Breakfast,Drip Machine,2,Whole Milk,Sugar,30,Office,Yes
+21,25-34,Non-binary,USA,Oat Latte,Espresso Machine,2,Oat Milk,None,70,Home,No
+22,35-44,Female,Spain,Cortado,Espresso Machine,3,Whole Milk,None,40,Office,Yes
+23,25-34,Male,Canada,Americano,AeroPress,2,None,None,45,Hybrid,Yes
+24,18-24,Female,Germany,Iced Latte,Espresso Machine,1,Almond Milk,Caramel Syrup,60,Home,No
+25,55+,Female,France,Café au Lait,French Press,2,Whole Milk,Sugar,25,Home,Yes
+26,25-34,Male,India,Filter Coffee,South Indian Filter,3,Whole Milk,Sugar,15,Office,Yes
+27,35-44,Female,USA,Latte,Espresso Machine,2,Oat Milk,None,55,Hybrid,Yes
+28,18-24,Male,UK,Flat White,Espresso Machine,2,Whole Milk,None,50,Office,No
+29,45-54,Female,Australia,Long Black,Espresso Machine,3,None,None,45,Office,Yes
+30,25-34,Male,Japan,Pour Over,Pour Over,2,None,None,40,Home,Yes
+31,35-44,Female,Netherlands,Cappuccino,Espresso Machine,2,Oat Milk,None,50,Office,Yes
+32,18-24,Non-binary,USA,Matcha Latte,Whisk,1,Oat Milk,Honey,65,Home,No
+33,25-34,Female,Italy,Espresso,Moka Pot,3,None,None,20,Office,Yes
+34,45-54,Male,Germany,Filter Coffee,Drip Machine,4,None,None,30,Office,Yes
+35,25-34,Female,France,Latte,Espresso Machine,2,Almond Milk,None,55,Hybrid,No
+36,35-44,Male,USA,Americano,AeroPress,3,None,None,40,Home,Yes
+37,18-24,Female,Canada,Iced Mocha,Espresso Machine,1,Oat Milk,Chocolate Syrup,70,Home,No
+38,55+,Male,UK,English Breakfast,Drip Machine,3,Whole Milk,Sugar,25,Home,Yes
+39,25-34,Female,Sweden,Oat Cappuccino,Espresso Machine,2,Oat Milk,None,55,Office,Yes
+40,35-44,Male,Singapore,Kopi,Traditional Brew,4,Condensed Milk,Sugar,20,Office,Yes
