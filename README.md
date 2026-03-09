@@ -1,4 +1,4 @@
-# Rapid Prototyping for Data Projects with AI, Loveable & Streamlit
+# Rapid Prototyping for Data Projects with AI, Lovable & Streamlit
 
 A hands-on workshop where you'll build a working prototype of a data-driven app or dashboard in small groups — going from idea to implementation in a single session.
 
