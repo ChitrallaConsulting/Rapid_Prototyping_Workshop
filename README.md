@@ -108,7 +108,7 @@ Choose one of these three Strasbourg-themed briefs.
 ### Brief 3: Christmas Market Visitor Trends
 > **Dataset:** `datasets/christmas_markets.csv` (~250 records)
 >
-> Prototype a tool that analyzes bike-share trip data — show popular routes, peak usage times, and trip duration distributions. Bonus: add a map view.
+Explore visitor trends across Strasbourg's famous Christmas markets. Analyze daily visitor counts by market location (Place Broglie, Cathédrale, Petite France, etc.), weather conditions, spending estimates, and vendor categories. Compare weekday vs. weekend patterns, find which markets draw the biggest crowds, and see how temperature and rain affect turnout. Seasonal, fun, and unmistakably Strasbourg.
 
 ## Language
 
