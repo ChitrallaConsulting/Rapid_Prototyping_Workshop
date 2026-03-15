@@ -108,7 +108,7 @@ Choose one of these three Strasbourg-themed briefs.
 ### Brief 3: Christmas Market Visitor Trends
 > **Dataset:** `datasets/christmas_markets.csv` (~250 records)
 >
-> Prototype a tool that analyzes bike-share trip data — show popular routes, peak usage times, and trip duration distributions. Bonus: add a map view.
+Explore visitor trends across Strasbourg's famous Christmas markets. Analyze daily visitor counts by market location (Place Broglie, Cathédrale, Petite France, etc.), weather conditions, spending estimates, and vendor categories. Compare weekday vs. weekend patterns, find which markets draw the biggest crowds, and see how temperature and rain affect turnout. Seasonal, fun, and unmistakably Strasbourg.
 
 ## Language
 
@@ -124,4 +124,4 @@ The workshop will be held in **English**. Small groups are free to collaborate i
 
 ## About
 
-This workshop is created by **Regina Chitralla**, a freelance Data Analytics Consultant based in Strasbourg. Through [Chitralla Consulting](https://www.chitrallaconsulting.com/), she builds automated data pipelines, dashboards, and analytics solutions using Python, SQL, and BigQuery. Her background spans Nielsen, healthcare analytics, and VFX production. She writes about data and cybersecurity on [Medium](https://medium.com/@reginachitralla).
+This workshop is created by **Regina Chitralla**, a freelance Data Analytics Consultant based in Strasbourg. Through [Chitralla Consulting](https://chitrallaconsulting.com), she builds automated data pipelines, dashboards, and analytics solutions using Python, SQL, and BigQuery. Her background spans Nielsen, healthcare analytics, and VFX production. She writes about data and cybersecurity on [Medium](https://medium.com/@reginachitralla).
