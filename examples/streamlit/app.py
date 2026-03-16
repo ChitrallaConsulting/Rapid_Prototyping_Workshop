@@ -32,6 +32,7 @@ h1, h2, h3 {
 .block-container { padding-top: 2rem; }
 section[data-testid="stSidebar"] { background-color: #1a1010; }
 section[data-testid="stSidebar"] .stMarkdown h2 { color: #c4a882; font-family: 'Cormorant Garamond', serif; }
+section[data-testid="stSidebar"] label { color: #f5ede0 !important; }
 </style>
 """, unsafe_allow_html=True)
 
