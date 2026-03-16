@@ -46,11 +46,13 @@ def chart_title(text):
     )
 
 def base_layout(**kwargs):
-    return dict(
+    layout = dict(
         plot_bgcolor=PLOT_BG, paper_bgcolor=PAPER_BG,
-        font_color=FONT_CLR, margin=dict(t=10, b=10),
-        **kwargs,
+        font_color=FONT_CLR,
     )
+    layout["margin"] = kwargs.pop("margin", dict(t=10, b=10))
+    layout.update(kwargs)
+    return layout
 
 def empty_state():
     st.info("No data matches the current filters.")
