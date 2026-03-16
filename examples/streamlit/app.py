@@ -195,18 +195,25 @@ with chart_col3:
             .reset_index()
             .sort_values("vintage")
         )
+        y_min = max(0, vintage_rating["rating"].min() - 0.3)
+        y_max = min(5, vintage_rating["rating"].max() + 0.3)
         fig3 = px.line(
             vintage_rating, x="vintage", y="rating",
             color="grape_variety", markers=True,
             labels={"vintage": "Vintage", "rating": "Avg Rating", "grape_variety": "Grape"},
+            line_shape="spline",
         )
+        fig3.update_traces(line=dict(width=2.5), marker=dict(size=7))
         fig3.update_layout(
             plot_bgcolor=PLOT_BG, paper_bgcolor=PAPER_BG,
             font_color=FONT_CLR,
-            xaxis=dict(showgrid=False),
-            yaxis=dict(showgrid=True, gridcolor=GRID_CLR, range=[0, 5]),
-            legend=dict(bgcolor="#2d1b1b", bordercolor=GRID_CLR, borderwidth=1, font=dict(color="#f5ede0")),
-            margin=dict(t=10, b=10),
+            xaxis=dict(showgrid=True, gridcolor=GRID_CLR,
+                       tickmode="array", tickvals=sorted(vintage_rating["vintage"].unique())),
+            yaxis=dict(showgrid=True, gridcolor=GRID_CLR, range=[y_min, y_max]),
+            legend=dict(bgcolor="#2d1b1b", bordercolor=GRID_CLR, borderwidth=1,
+                        font=dict(color="#f5ede0")),
+            margin=dict(t=10, b=10, r=10),
+            height=420,
         )
         st.plotly_chart(fig3, use_container_width=True)
     else:
