@@ -175,7 +175,7 @@ with chart_col2:
             font_color=FONT_CLR,
             xaxis=dict(showgrid=True, gridcolor=GRID_CLR),
             yaxis=dict(showgrid=True, gridcolor=GRID_CLR),
-            legend=dict(bgcolor="#2d1b1b", bordercolor=GRID_CLR, borderwidth=1),
+            legend=dict(bgcolor="#2d1b1b", bordercolor=GRID_CLR, borderwidth=1, font=dict(color="#f5ede0")),
             margin=dict(t=10, b=10),
         )
         st.plotly_chart(fig2, use_container_width=True)
@@ -204,7 +204,7 @@ with chart_col3:
             font_color=FONT_CLR,
             xaxis=dict(showgrid=False),
             yaxis=dict(showgrid=True, gridcolor=GRID_CLR, range=[0, 5]),
-            legend=dict(bgcolor="#2d1b1b", bordercolor=GRID_CLR, borderwidth=1),
+            legend=dict(bgcolor="#2d1b1b", bordercolor=GRID_CLR, borderwidth=1, font=dict(color="#f5ede0")),
             margin=dict(t=10, b=10),
         )
         st.plotly_chart(fig3, use_container_width=True)
