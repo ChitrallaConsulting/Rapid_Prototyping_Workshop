@@ -108,7 +108,7 @@ if organic_filter != "All":
 
 # ── Header ────────────────────────────────────────────────────────────────────
 st.markdown(
-    "<h1 style='font-size:3.2rem; color:#ffffff; font-weight:600; margin-bottom:0; letter-spacing:-0.5px'>Alsace Wine Explorer</h1>"
+    "<h1 style='font-size:3.2rem; color:#2d1b1b; font-weight:600; margin-bottom:0; letter-spacing:-0.5px'>Alsace Wine Explorer</h1>"
     "<p style='color:#9e7c5a; font-size:1rem; margin-top:0; margin-bottom:2rem; font-family:DM Sans'>"
     "Explore, filter, and compare Alsace wines by variety, village, producer, and vintage."
     "</p>",
@@ -136,7 +136,7 @@ chart_col1, chart_col2 = st.columns(2)
 
 # 1. Avg Rating by Grape Variety (bar)
 with chart_col1:
-    st.markdown("<h3 style='color:#ffffff; font-size:1.3rem; font-weight:600; letter-spacing:0.01em'>Avg Rating by Grape Variety</h3>", unsafe_allow_html=True)
+    st.markdown("<h3 style='color:#2d1b1b; font-size:1.3rem; font-weight:600; letter-spacing:0.01em'>Avg Rating by Grape Variety</h3>", unsafe_allow_html=True)
     if not filtered.empty:
         rating_grape = (
             filtered.groupby("grape_variety")["rating"]
@@ -162,7 +162,7 @@ with chart_col1:
 
 # 2. Price vs Rating scatter
 with chart_col2:
-    st.markdown("<h3 style='color:#ffffff; font-size:1.3rem; font-weight:600; letter-spacing:0.01em'>Price vs Rating</h3>", unsafe_allow_html=True)
+    st.markdown("<h3 style='color:#2d1b1b; font-size:1.3rem; font-weight:600; letter-spacing:0.01em'>Price vs Rating</h3>", unsafe_allow_html=True)
     if not filtered.empty:
         fig2 = px.scatter(
             filtered, x="price_eur", y="rating",
@@ -187,7 +187,7 @@ chart_col3, chart_col4 = st.columns(2)
 
 # 3. Avg Rating by Vintage (line)
 with chart_col3:
-    st.markdown("<h3 style='color:#ffffff; font-size:1.3rem; font-weight:600; letter-spacing:0.01em'>Rating Across Vintages</h3>", unsafe_allow_html=True)
+    st.markdown("<h3 style='color:#2d1b1b; font-size:1.3rem; font-weight:600; letter-spacing:0.01em'>Rating Across Vintages</h3>", unsafe_allow_html=True)
     if not filtered.empty:
         vintage_rating = (
             filtered.groupby(["vintage", "grape_variety"])["rating"]
@@ -221,7 +221,7 @@ with chart_col3:
 
 # 4. Top Producers by Avg Rating (horizontal bar)
 with chart_col4:
-    st.markdown("<h3 style='color:#ffffff; font-size:1.3rem; font-weight:600; letter-spacing:0.01em'>Top Producers by Avg Rating</h3>", unsafe_allow_html=True)
+    st.markdown("<h3 style='color:#2d1b1b; font-size:1.3rem; font-weight:600; letter-spacing:0.01em'>Top Producers by Avg Rating</h3>", unsafe_allow_html=True)
     if not filtered.empty:
         top_producers = (
             filtered.groupby("producer")["rating"]
@@ -250,7 +250,7 @@ with chart_col4:
 # ── Data table ────────────────────────────────────────────────────────────────
 st.markdown("<hr style='border-color:#3d2626; margin:1.5rem 0'>", unsafe_allow_html=True)
 st.markdown(
-    f"<h3 style='color:#ffffff; font-size:1.3rem; font-weight:600; letter-spacing:0.01em'>Filtered Data "
+    f"<h3 style='color:#2d1b1b; font-size:1.3rem; font-weight:600; letter-spacing:0.01em'>Filtered Data "
     f"<span style='font-size:1rem; color:#9e7c5a; font-family:DM Sans'>({len(filtered)} wines)</span></h3>",
     unsafe_allow_html=True,
 )
